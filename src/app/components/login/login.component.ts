@@ -7,8 +7,7 @@ import { Router } from "@angular/router";
   styleUrls: ["./login.component.css"],
 })
 export class LoginComponent implements OnInit {
-  // logo = "assets/images/logo.png";
-  logo = 'imageUrl';
+  logo = "assets/images/logo.png";
   hide = true;
 
   constructor(private router: Router) {}
