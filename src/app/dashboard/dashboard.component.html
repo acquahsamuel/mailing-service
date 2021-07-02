@@ -1,0 +1,28 @@
+<app-navbar></app-navbar>
+<div *ngIf="socialAuthServive.authState | async as socialUser">
+  <div class="body">
+    <mat-card class="card">
+      <mat-card-content>
+        <h3>Account Profile</h3>
+      </mat-card-content>
+      <mat-card-header>
+        <!-- <div mat-card-avatar class="example-header-image">
+          <img
+            mat-card-image
+            src="{{socialUser.name}}"
+            alt="Profile picture"
+          />
+        </div> -->
+        <mat-card-title> {{socialUser.name}}! </mat-card-title>
+        <mat-card-subtitle>{{socialUser.email}}!</mat-card-subtitle>
+      </mat-card-header>
+
+      <mat-card-actions>
+        <button mat-raised-button (click)="logOut()">Logout</button>
+        <button mat-raised-button (click)="viewTable()">View Table</button>
+      </mat-card-actions>
+    </mat-card>
+  </div>
+</div>
+
+<router-outlet></router-outlet>
