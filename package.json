@@ -8,7 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "generate": "node ./server/generate.js > ./server/data.json",
+    "generate": "node ./server/server.js > ./server/data.json",
     "server": "json-server --watch ./server/data.json",
     "postinstall": "ngcc"
   },
