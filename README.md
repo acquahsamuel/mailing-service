@@ -1,5 +1,5 @@
-# Project Demo
-Assement Project Demonstration
+# Assement Project Demo
+Demo 
 
 ### Structure 
 Components | 
@@ -10,9 +10,8 @@ Navbar |
 Table |
 
 
-# Approach to problem (2 Approach)
-
-> Coffee. The finest organic suspension ever devised... I beat the Borg with it.
+### Approach to problem (2 Approach)
+> Approach 
 > - Creating your personal api with your modeled data
 > - Consuming third party services  
 
@@ -44,11 +43,24 @@ Create  (4) additional component
 - Login , Dashboard , Navbar , Table 
 
 
-Google Auth Service for Backend Login 
 
+Request for google auth api_key 
+install angularx-social-login npm 
+
+from angular-login import required method into project
+store the users session in cookie 
+
+Retrive the users data through the stored cookeies 
+Prevent unauthorized users with [authprotect]
+Login user if the details are correct 
+
+Displaying data in table 
+Make a GET request for data endpoint 
+Convert the data into desired format (Object or String)
+Render the UI 
+Parse into the UI the various parameter from the endpoint
 
 ````
-
 
 
 ### Project Images 
@@ -59,5 +71,3 @@ Google Auth Service for Backend Login
 <img width="450px"  src="src/assets/img-readme/image-5.png">
 <br>
 
-## Further help
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
