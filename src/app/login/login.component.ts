@@ -8,7 +8,7 @@ import { SocialAuthService, GoogleLoginProvider } from "angularx-social-login";
   styleUrls: ["./login.component.css"],
 })
 export class LoginComponent implements OnInit {
-  logo = "";
+  logo = "assets/images/logo-1.jpg";
   hide = true;
   constructor(private router: Router, private authService: SocialAuthService) {}
 
