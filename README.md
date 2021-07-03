@@ -4,10 +4,10 @@ Assement Project Demonstration
 ### Structure 
 Components | 
 ------------ | 
-login | 
+Login | 
 Dashboard|
-navbar |
-table |
+Navbar |
+Table |
 
 
 # Approach to problem (2 Approach)
@@ -22,14 +22,11 @@ create your sever for the backend
 create the model for the database with the required fields 
 
 [POST Request] 
-populate the database by getting data from forms fields (either) req.body with postman or req.body data
-
+populate the database by getting data from forms fields (either) req.body with postman or forms inputs
 Make a [GET Request]
 Request for data the database 
+Render the  data in the defined UI component
 ````
-
-
-Sometimes it's useful to have different levels of headings to structure your documents. <br> Start lines with a `#` to create headings. Multiple `##` in a row denote smaller heading sizes.
 
 ### This is a third-tier heading
 ````
@@ -39,7 +36,7 @@ Render the  data in the defined UI component
 ````
 
 
-###Project Images 
+### Project Images 
 <br>
 <img width="450px"  src="src/assets/img-readme/image-1.png">
 <img width="450px"  src="src/assets/img-readme/image-4.png">
