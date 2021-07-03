@@ -28,12 +28,27 @@ Request for data the database
 Render the  data in the defined UI component
 ````
 
-### This is a third-tier heading
+### Third party Service
 ````
 Subscibe for external api service 
 Make a [GET Request] to the provided url 
 Render the  data in the defined UI component
 ````
+
+### General Solving approach
+````
+using angular cli to genete the project structure
+installing material ui components 
+
+Create  (4) additional component 
+- Login , Dashboard , Navbar , Table 
+
+
+Google Auth Service for Backend Login 
+
+
+````
+
 
 
 ### Project Images 
