@@ -1,0 +1,24 @@
+<div class="body">
+  <div class="login">
+    <img [src]="logo" alt="" width="50%" height="80%" />
+    <h1 class="h3 mb-3 fw-normal">Account Registration</h1>
+    <mat-form-field class="form" appearance="fill">
+      <mat-label> Username </mat-label>
+      <input matInput />
+    </mat-form-field>
+    <mat-form-field class="form" appearance="fill">
+      <mat-label> Password </mat-label>
+      <input matInput [type]="hide ? 'password' : 'text'" />
+    </mat-form-field>
+    <br />
+
+    <button
+      (click)="loginWithGoogle()"
+      mat-raised-button
+      color="danger"
+      class="google-login-btn"
+    >
+      Login with Google
+    </button>
+  </div>
+</div>

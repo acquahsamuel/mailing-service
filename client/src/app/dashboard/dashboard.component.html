@@ -1,0 +1,22 @@
+<!-- DashBoard Component -->
+<app-navbar></app-navbar>
+<div *ngIf="socialAuthServive.authState | async as socialUser">
+  <div class="body">
+    <mat-card class="card">
+      <mat-card-content>
+        <h3>Account Profile</h3>
+      </mat-card-content>
+      <mat-card-header>
+        <mat-card-title> {{socialUser.name}}! </mat-card-title>
+        <mat-card-subtitle>{{socialUser.email}}!</mat-card-subtitle>
+      </mat-card-header>
+
+      <mat-card-actions>
+        <button mat-raised-button (click)="logOut()">Logout</button>
+      </mat-card-actions>
+    </mat-card>
+  </div>
+  <app-table></app-table>
+</div>
+
+<router-outlet></router-outlet>
