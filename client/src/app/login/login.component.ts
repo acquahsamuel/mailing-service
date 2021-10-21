@@ -1,6 +1,5 @@
 import { Component, OnInit } from "@angular/core";
 import { Router } from "@angular/router";
-import { SocialAuthService, GoogleLoginProvider } from "angularx-social-login";
 
 @Component({
   selector: "app-login",
@@ -10,23 +9,10 @@ import { SocialAuthService, GoogleLoginProvider } from "angularx-social-login";
 export class LoginComponent implements OnInit {
   logo = "assets/images/logo-1.jpg";
   hide = true;
-  constructor(private router: Router, private authService: SocialAuthService) {}
 
-  ngOnInit() {
-    this.authService.authState.subscribe((user) => {});
+  loginWithGoogle(){
+    //
   }
 
-  onClick() {
-    this.router.navigate(["dashboard"]);
-  }
-
-  loginWithGoogle(): void {
-    this.authService
-      .signIn(GoogleLoginProvider.PROVIDER_ID)
-      .then(() => this.router.navigate(["dashboard"]));
-  }
-
-  logout(): void {
-    this.authService.signOut();
-  }
+  ngOnInit(){}
 }
