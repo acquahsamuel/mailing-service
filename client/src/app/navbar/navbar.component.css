@@ -1,0 +1,28 @@
+header {}
+
+nav {
+  display: flex;
+  background-color: rgb(2, 2, 51);
+}
+
+
+ul {
+  list-style: none;
+  display: flex;
+}
+
+
+li {
+
+  margin-left: .6rem;
+}
+
+
+a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+a:hover {
+  cursor: pointer;
+}
