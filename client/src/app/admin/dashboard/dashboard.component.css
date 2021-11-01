@@ -1,0 +1,118 @@
+.example-container {
+  width: 100vw;
+  height: 100vh;
+}
+
+.example-sidenav-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 10px;
+  height: 7.5%;
+  background-image: linear-gradient(142deg, #ff8c214b 34%, #ff055d56);
+}
+
+.example-sidenav {
+  background-color: whitesmoke;
+  width: 15%;
+  text-align: center;
+}
+
+.mat-drawer-content {
+  background-color: whitesmoke !important;
+
+}
+
+.mat-list {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  /* width: 100%; */
+}
+
+.mat-list-item {
+  color: black !important;
+  font-weight: 400;
+  color: rgb(214, 209, 209);
+  font-size: .9rem;
+}
+
+.mat-list-item.active {
+  background-color: blanchedalmond;
+}
+
+.menu-title {
+  text-transform: uppercase;
+  color: #ff8b21;
+}
+
+.mat-list-item mat-icon {
+  color: rgb(122, 118, 118);
+  margin-right: 5px;
+}
+
+.mat-list-item:hover {
+  background-color: #f1eeee;
+  animation: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+
+.main-body {
+  display: flex;
+  justify-content: center;
+  width: 60vw;
+  margin: 0 auto;
+}
+
+.image-container {
+  border-radius: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 5px;
+}
+
+.user-image {
+  border-radius: 500px;
+  height: 3rem;
+  width: 3rem;
+}
+
+.logo-image {
+  height: 79px;
+  width: 100%;
+  background-size: cover;
+  object-fit: contain;
+  background-image: linear-gradient(142deg, #ff8b21 34%, #ff055b);
+  cursor: pointer;
+  opacity: .8;
+  
+}
+
+.menu-icon {
+  color: rgb(78, 78, 78);
+}
+
+.main-left {
+  background-color: rgb(232, 243, 243);
+  width: 50%;
+  color: black;
+}
+
+.main-right {
+  background-color: rgb(235, 235, 235);
+  width: 50%;
+  color: black;
+}
+
+
+.username{
+  font-weight: normal;
+}
+
+
+a {
+  text-decoration: none;
+  color: rgb(110, 108, 108);
+}
