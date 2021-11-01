@@ -2,23 +2,20 @@
 
   <div class="login">
     <img [src]="logo" alt="" width="50%" height="80%" />
-    <h1 class="h3 mb-3 fw-normal">Account Registration</h1>
+    <h1 class="h3 mb-3 fw-normal">Account Login</h1>
 
     <mat-form-field class="form" appearance="fill">
-      <mat-label> </mat-label>
+      <mat-label> Email </mat-label>
       <input matInput placeholder="Email" name="email" />
     </mat-form-field>
 
     <mat-form-field class="form" appearance="fill">
-      <mat-label> </mat-label>
+      <mat-label> Passowrd </mat-label>
       <input matInput [type]="hide ? 'password' : 'text'" />
     </mat-form-field>
 
     <div class="login-btn-group">
-      <button mat-raised-button color="primary">
-        <a mat-button href="" target="_blank"> Login </a>
-      </button>
-      
+      <button mat-raised-button color="primary"> <a mat-button> Login </a></button>
       <button (click)="loginWithGoogle()" mat-raised-button color="warn" class="google-login-btn">
         Login with Google
       </button>

@@ -14,20 +14,25 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { AdminComponent } from './admin/admin.component';
+import { RegisterComponent } from './register/register.component';
 
 
 @NgModule({
-  declarations: [AppComponent, HomeComponent, LoginComponent, NavbarComponent],
+  declarations: [
+    AppComponent,
+    HomeComponent,
+    LoginComponent,
+    NavbarComponent,
+    AdminComponent,
+    RegisterComponent
+  ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MaterialModule,
-    HttpClientModule,
-    RouterModule.forRoot([
-      { path: '', component: HomeComponent },
-      { path: 'login', component: LoginComponent }
-    ])
+    HttpClientModule
   ],
   providers: [
     AuthService,

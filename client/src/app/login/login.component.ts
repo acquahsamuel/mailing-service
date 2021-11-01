@@ -1,4 +1,4 @@
-import { Component,  OnInit } from "@angular/core";
+import { Component, OnInit } from "@angular/core";
 
 
 @Component({
@@ -7,13 +7,12 @@ import { Component,  OnInit } from "@angular/core";
   styleUrls: ["./login.component.css"]
 })
 
+export class LoginComponent implements OnInit {
+  constructor() { }
+  ngOnInit() { }
 
-export class LoginComponent  {
   logo = "assets/images/logo-1.jpg";
   hide = true;
 
-
-  loginWithGoogle(){
-    //
-  }
+  loginWithGoogle() { }
 }
