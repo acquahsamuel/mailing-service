@@ -28,8 +28,10 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  /* width: 100%; */
+  width: 100%;
+  cursor: pointer;
 }
+
 
 .mat-list-item {
   color: black !important;
@@ -76,7 +78,7 @@
 .user-image {
   border-radius: 500px;
   height: 3rem;
-  width: 3rem;
+  width: 2.9rem;
 }
 
 .logo-image {
@@ -87,7 +89,6 @@
   background-image: linear-gradient(142deg, #ff8b21 34%, #ff055b);
   cursor: pointer;
   opacity: .8;
-  
 }
 
 .menu-icon {
@@ -107,7 +108,7 @@
 }
 
 
-.username{
+.username {
   font-weight: normal;
 }
 

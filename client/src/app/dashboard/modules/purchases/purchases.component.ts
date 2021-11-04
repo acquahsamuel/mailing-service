@@ -13,3 +13,4 @@ export class PurchasesComponent implements OnInit {
   }
 
 }
+
