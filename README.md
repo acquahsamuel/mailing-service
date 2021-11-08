@@ -1,6 +1,5 @@
 #### Assement Project Demo
 Demo 
-Angular with Nest.js
 
 ### Project Images 
 <br>
