@@ -29,3 +29,4 @@ export class TypeCheckComponent implements OnInit {
     return randomLetter === enterLetter ? "correct" : "incorrect";
   }
 }
+ 
