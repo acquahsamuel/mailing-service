@@ -4,6 +4,14 @@ import { NewsService } from 'src/app/shared/services/news.service';
 
 interface IArticle {
   date? : string;
+  author : string;
+  title : string;
+  content : string;
+  description : string;
+  url : string;
+  urlToImage : string;
+  publishedAt : string;
+  
 }
 
 
@@ -13,6 +21,7 @@ interface IArticle {
   styleUrls: ['./wikipedia.component.css']
 })
 export class WikipediaComponent implements OnInit {
+  
   articles! : any;
 
   constructor(
