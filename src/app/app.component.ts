@@ -1,4 +1,5 @@
 import { Component } from "@angular/core";
+import { WikipediaService } from "./shared/services/wikipedia.service";
 
 @Component({
   selector: "app-root",
@@ -6,6 +7,16 @@ import { Component } from "@angular/core";
   styleUrls: ["./app.component.css"],
 })
 export class AppComponent {
+  pages = [];
+
+  constructor(public wikipedia: WikipediaService) {}
+
+  onTerm(term: string) {
+    this.wikipedia.search(term).subscribe((response: any) => {
+      this.pages = response.query.search;
+    });
+  }
+
   posts = [
     {
       title: "Neat tree",
@@ -22,11 +33,9 @@ export class AppComponent {
     {
       title: "Closed cyber",
       imageUrl: "assets/images/products/imags.png",
-      content: "This is swing on cleaning and learning of cyber space of engineer",
+      content:
+        "This is swing on cleaning and learning of cyber space of engineer",
       username: "username",
     },
   ];
 }
-
-
-// --module=appInit.module

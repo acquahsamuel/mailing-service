@@ -8,9 +8,14 @@
   [username]="post.username"
   [content]="post.content"
 ></app-card> -->
-
-
 <!-- <app-type-check></app-type-check> -->
+<!-- <app-wikipedia></app-wikipedia> -->
 
 
-<app-wikipedia></app-wikipedia>
+<div class="container">
+  <app-search-bar (submitted)="onTerm($event)"></app-search-bar>
+  <app-page-list  *ngIf="pages.length" [pages]="pages"></app-page-list>
+</div>
+
+<!-- <app-custom-stepper>
+</app-custom-stepper> -->

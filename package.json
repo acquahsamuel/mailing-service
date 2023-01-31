@@ -2,8 +2,8 @@
   "name": "web-client",
   "version": "0.0.0",
   "scripts": {
-    "ng": "ng --port 4201",
-    "start": "ng serve --port 4201",
+    "ng": "ng --port 4202",
+    "start": "ng serve --port 4202",
     "build": "ng build --prod",
     "test": "ng test",
     "lint": "ng lint",
