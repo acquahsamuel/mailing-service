@@ -17,6 +17,7 @@ import { WikipediaComponent } from './modules/wikipedia/wikipedia.component';
 import { SearchBarComponent } from './modules/search-bar/search-bar.component';
 import { PageListComponent } from './modules/page-list/page-list.component';
 import { CustomStepperComponent } from './modules/custom-stepper/custom-stepper.component';
+import { PlaceholderComponent } from './modules/placeholder/placeholder.component';
 
 @NgModule({
   declarations: [
@@ -30,6 +31,7 @@ import { CustomStepperComponent } from './modules/custom-stepper/custom-stepper.
     SearchBarComponent,
     PageListComponent,
     CustomStepperComponent,
+    PlaceholderComponent,
   ],
   imports: [
     BrowserModule,
