@@ -2,7 +2,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    font-family: "Inconsolata", monospace;
+    /* font-family: "Inconsolata", monospace; */
 }
 
 img {
@@ -13,10 +13,13 @@ img {
 .wrapper {
     /* border: 1px solid black; */
     margin-bottom: 1rem;
-    width: 400px;
+    width: 350px;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
 }
 
+.wording {
+    padding: 0.6rem;
+}
 
 /* 
 .news-letter {
