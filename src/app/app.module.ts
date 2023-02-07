@@ -18,6 +18,8 @@ import { SearchBarComponent } from './modules/search-bar/search-bar.component';
 import { PageListComponent } from './modules/page-list/page-list.component';
 import { CustomStepperComponent } from './modules/custom-stepper/custom-stepper.component';
 import { PlaceholderComponent } from './modules/placeholder/placeholder.component';
+import { FormHandlingComponent } from './modules/form-handling/form-handling.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -32,12 +34,14 @@ import { PlaceholderComponent } from './modules/placeholder/placeholder.componen
     PageListComponent,
     CustomStepperComponent,
     PlaceholderComponent,
+    FormHandlingComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MaterialModule,
+    FormsModule,
     HttpClientModule
   ],
   providers: [
