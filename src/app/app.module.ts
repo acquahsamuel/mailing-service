@@ -20,6 +20,8 @@ import { CustomStepperComponent } from './modules/custom-stepper/custom-stepper.
 import { PlaceholderComponent } from './modules/placeholder/placeholder.component';
 import { FormHandlingComponent } from './modules/form-handling/form-handling.component';
 import { FormsModule } from '@angular/forms';
+import { CreditCheckComponent } from './modules/credit-check/credit-check.component';
+import { CoverterPipe } from './modules/credit-check/coverter.pipe';
 
 @NgModule({
   declarations: [
@@ -34,7 +36,9 @@ import { FormsModule } from '@angular/forms';
     PageListComponent,
     CustomStepperComponent,
     PlaceholderComponent,
-    FormHandlingComponent
+    FormHandlingComponent,
+    CreditCheckComponent,
+    CoverterPipe
   ],
   imports: [
     BrowserModule,
