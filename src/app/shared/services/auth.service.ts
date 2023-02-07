@@ -7,5 +7,9 @@ export class AuthService {
 
   constructor() { }
 
+
+  usernameAvailable(){
+  
+  }
   
 }

@@ -7,34 +7,19 @@ import { HttpClientModule } from '@angular/common/http';
 import { AuthService } from './shared/services/auth.service';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { EmailCreateComponent } from './modules/inbox/email-create/email-create.component';
-import { EmailIndexComponent } from './modules/inbox/email-index/email-index.component';
-import { EmailShowComponent } from './modules/inbox/email-show/email-show.component';
-import { EmailReplyComponent } from './modules/inbox/email-reply/email-reply.component';
-import { HomeComponent } from './modules/inbox/home/home.component';
-import { InboxModule } from './modules/inbox/inbox.module';
-import { SigninComponent } from './modules/auth/signin/signin.component';
-import { SignoutComponent } from './modules/auth/signout/signout.component';
-import { SignupComponent } from './modules/auth/signup/signup.component';
+import { AuthModule } from './modules/auth/auth.module';
+
  
 @NgModule({
   declarations: [
     AppComponent,
-    EmailCreateComponent,
-    EmailIndexComponent,
-    EmailShowComponent,
-    EmailReplyComponent,
-    HomeComponent,
-    SigninComponent,
-    SignoutComponent,
-    SignupComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    AuthModule,
     BrowserAnimationsModule,
     HttpClientModule,
-    InboxModule
   ],
   providers: [
     AuthService,
