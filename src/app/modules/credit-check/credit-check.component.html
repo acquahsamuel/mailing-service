@@ -1,5 +1,5 @@
 <form class="container">
-    <h4> Payment Checkout  </h4>
+  <h4>Payment Checkout</h4>
   <div>
     <label for=""> Payee Name </label>
     <input
@@ -21,9 +21,8 @@
       id=""
       class="input"
     />
-    <p>   {{ date | date : "MMMM d, y" }} </p>
+    <p>{{ date | date : "MMMM d, y" }}</p>
   </div>
-
 
   <div>
     <label for=""> Amount </label>
@@ -34,10 +33,8 @@
       id=""
       class="input"
     />
-    <p>   {{ amount | currency : "GH" }} </p>
+    <p>{{ amount | currency : "GH" }}</p>
   </div>
-
-
 
   <div>
     <label for=""> Height </label>
@@ -48,9 +45,8 @@
       id=""
       class="input"
     />
-    <p>   {{ height  }} </p>
+    <p>{{ height | number : "1.0-0" }}</p>
   </div>
 
-  <div>
-  </div>
+  <div></div>
 </form>
