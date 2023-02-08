@@ -9,7 +9,7 @@ import { AuthService } from 'src/app/shared/services/auth.service';
 @Injectable({
   providedIn: 'root'
 })
-export class UniqueUsername implements AsyncValidator {
+export class UniqueUsername  {
   constructor(private authService: AuthService) {}
 
 //   validate = (control: FormControl) => {
@@ -31,5 +31,5 @@ export class UniqueUsername implements AsyncValidator {
 //     );
 //   };
 
-  
+  re 
 }

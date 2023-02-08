@@ -1,5 +1,7 @@
-@import "bulma/css/bulma.css";
+/* @import "bulma/css/bulma.css"; */
 /* @import "boostrap/dist/css/bootstrap.css"; */
+@import 'semantic-ui-css/semantic.css';
+
 
 .searchmatch{
     font-weight: bold;
